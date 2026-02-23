@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - Faizan Tech Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2>Faizan Tech Store</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+    </div>
+</nav>
+
+<div class="products">
+
+    <div class="card">
+        <img src="images/arduino.jpg">
+        <h3>Arduino Uno R3</h3>
+        <p>₹500</p>
+        <button onclick="addToCart('Arduino Uno R3',500)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images/sensor.jpg">
+        <h3>Ultrasonic Sensor HC-SR04</h3>
+        <p>₹250</p>
+        <button onclick="addToCart('Ultrasonic Sensor',250)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images/breadboard.jpg">
+        <h3>Breadboard</h3>
+        <p>₹180</p>
+        <button onclick="addToCart('Breadboard',180)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images/led.jpg">
+        <h3>LED Starter Pack</h3>
+        <p>₹150</p>
+        <button onclick="addToCart('LED Pack',150)">Add to Cart</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
